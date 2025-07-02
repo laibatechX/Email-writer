@@ -1,0 +1,32 @@
+# 📧 ChatGPT-Free Email Writer (Python)
+
+This is a lightweight email writer tool built using Python and a free open-source AI model from Hugging Face. It automatically generates professional emails based on your input.
+
+## 💡 Features
+
+- Accepts any email topic from the user
+- Automatically generates a professional email draft
+- Saves the generated email into a `.txt` file
+- Runs entirely offline — no OpenAI API key required!
+
+## ⚙️ How It Works
+
+1. The user is prompted to enter the purpose of the email (e.g., "follow up with a client").
+2. The model generates a professional-sounding email using a text generation model.
+3. The email is displayed and saved as `generated_email.txt`.
+
+## 🛠️ Tools Used
+
+- Python
+- Hugging Face `transformers`
+- `distilgpt2` language model
+
+## ▶️ How to Run
+
+1. Open your terminal.
+2. Navigate to the project folder:
+   ```bash
+   cd "C:\Users\YourName\Desktop\Free Email Writer"
+
+python email_writer.py
+
